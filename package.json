@@ -1,0 +1,30 @@
+{
+  "name": "slovakia-cities",
+  "version": "0.0.0",
+  "description": "All slovakian cities with regions",
+  "license": "MIT",
+  "repository": "danielhusar/slovakia-cities",
+  "author": {
+    "name": "Daniel Husar",
+    "email": "dano.husar@gmail.com",
+    "url": "https://github.com/danielhusar"
+  },
+  "engines": {
+    "node": ">=0.10.0"
+  },
+  "scripts": {
+    "test": "mocha"
+  },
+  "files": [
+    "index.js"
+  ],
+  "keywords": [
+    "slovakia",
+    "city",
+    "cities",
+    "regions"
+  ],
+  "devDependencies": {
+    "mocha": "*"
+  }
+}
