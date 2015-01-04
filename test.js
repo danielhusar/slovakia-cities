@@ -4,5 +4,5 @@ var cities = require('./');
 
 
 it('it should work', function () {
-	assert(true);
+	assert.equal(cities['Bratislavský'][0], 'Bratislava - Staré Mesto');
 });
