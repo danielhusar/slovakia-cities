@@ -1,7 +1,7 @@
 {
   "name": "slovakia-cities",
-  "version": "0.0.0",
-  "description": "All slovakian cities with regions",
+  "version": "1.0.0",
+  "description": "All slovakia cities with regions",
   "license": "MIT",
   "repository": "danielhusar/slovakia-cities",
   "author": {
