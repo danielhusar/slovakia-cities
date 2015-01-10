@@ -12,7 +12,7 @@ npm install --save slovakia-cities
 
 ```javascript
 var cities = require('slovakia-cities')(); //cities divided by regions
-var allCities = require('slovakia-cities').cities(); //array of all citites together
+var allCities = require('slovakia-cities').cities(); //array of all cities together
 ```
 
 ## License
