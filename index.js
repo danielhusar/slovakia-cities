@@ -9,7 +9,7 @@ module.exports.cities = function () {
 	var allCities = [];
 
 	Object.keys(cities).forEach(function (key) {
-	  allCities = allCities.concat(cities[key]);
+		allCities = allCities.concat(cities[key]);
 	});
 
 	return allCities;
