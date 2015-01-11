@@ -1,7 +1,6 @@
 'use strict';
 
 var assert = require('assert');
-var through2 = require('through2');
 var cities = require('./')();
 var allCities = require('./').cities();
 var stream = require('./').stream();
