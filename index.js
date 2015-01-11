@@ -1,11 +1,9 @@
 'use strict';
 
-module.exports = function () {
-	return require('./cities.json');
-};
+var fs = require('fs');
+var through2 = require('through2');
 
-module.exports.cities = function () {
-	var cities = require('./cities.json');
+function merge (cities) {
 	var allCities = [];
 
 	Object.keys(cities).forEach(function (key) {
@@ -13,4 +11,16 @@ module.exports.cities = function () {
 	});
 
 	return allCities;
+}
+
+module.exports = function () {
+	return require('./cities.json');
+};
+
+module.exports.cities = function () {
+	return merge(require('./cities.json'));
+};
+
+module.exports.stream = function () {
+	return fs.createReadStream('./cities.json');
 };
