@@ -1,7 +1,5 @@
 'use strict';
 
-var fs = require('fs');
-
 function merge (cities) {
 	var allCities = [];
 
