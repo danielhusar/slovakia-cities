@@ -19,7 +19,3 @@ module.exports = function () {
 module.exports.cities = function () {
 	return merge(require('./cities.json'));
 };
-
-module.exports.stream = function () {
-	return fs.createReadStream('./cities.json');
-};
